@@ -3,7 +3,7 @@ https://www.raspberrypi.org/downloads/raspberry-pi-os/
 
 (change your root password)
 ```bash
-Sudo passwd root
+sudo passwd root
 ```
 
 Install dependant applications
@@ -12,13 +12,13 @@ xfce4 - file manager
 iceweasel - firefox (really only needed for the Citrix certificate)
 chromium - chrome
 ```bash
-Sudo apt-get update
-Sudo apt-get install xfe 
-Sudo apt-get install xfce4 
-Sudo apt-get update
-Sudo apt-get install libwebkitgtk-1.0-0
-Sudo apt-get install iceweasel 
-Sudo apt-get install chromium
+sudo apt-get update
+sudo apt-get install xfe 
+sudo apt-get install xfce4 
+sudo apt-get update
+sudo apt-get install libwebkitgtk-1.0-0
+sudo apt-get install iceweasel 
+sudo apt-get install chromium
 ```
 
 https://www.raspberrypi.org/forums/viewtopic.php?t=7571
@@ -36,7 +36,7 @@ Select Boot Options, Desktop/CLI, and select Desktop or Desktop Autologin.
 Download the Citrix workspace client and install (this has receiver built in)
 https://www.citrix.com/en-gb/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
 ```bash
-Sudo dpkg -i icaclient_20.06.0.15_armhf.deb 
+sudo dpkg -i icaclient_20.06.0.15_armhf.deb 
 ```
 
 Copy the root certificate from the Firefox CA store to the Citrix ICA client store.
