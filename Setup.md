@@ -21,6 +21,12 @@ Sudo apt-get install iceweasel
 Sudo apt-get install chromium
 ```
 
+https://www.raspberrypi.org/forums/viewtopic.php?t=7571
+Install slim as the login manager
+```bash
+sudo apt-get install slim
+```
+
 Change the boot options to load into the desktop
 ```bash
 sudo raspi-config
