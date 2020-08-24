@@ -16,10 +16,10 @@ Install dependant applications
 sudo apt-get update
 sudo apt-get install xfe 
 sudo apt-get install xfce4 
-sudo apt-get update
 sudo apt-get install libwebkitgtk-1.0-0
 sudo apt-get install iceweasel 
 sudo apt-get install chromium
+sudo apt-get update
 ```
 
 https://www.raspberrypi.org/forums/viewtopic.php?t=7571
