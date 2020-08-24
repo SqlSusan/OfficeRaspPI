@@ -7,10 +7,11 @@ sudo passwd root
 ```
 
 Install dependant applications
-xfe - gui
-xfce4 - file manager
-iceweasel - firefox (really only needed for the Citrix certificate)
-chromium - chrome
+
+- xfe (gui)
+- xfce4 (file manager)
+- iceweasel (firefox (really only needed for the Citrix certificate))
+- chromium (chrome)
 ```bash
 sudo apt-get update
 sudo apt-get install xfe 
