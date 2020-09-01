@@ -70,4 +70,3 @@ sudo cp /usr/share/ca-certificates/mozilla/Entrust_Root_Certication_Authority_-_
 
 Log into Citrix in Chromium, in settings at the top right, click "Change Citrix Receiver...". Click "Use Full Version".
 
-With some monitors
