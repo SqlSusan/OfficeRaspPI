@@ -26,5 +26,5 @@ To adjust the cable length, you will need to cut it! Before doing so, make sure 
 
 <a href="https://www.amazon.co.uk/dp/B00Q2GQXAC/ref=cm_sw_em_r_mt_dp_idStFb7QEAQVS">3pcs 20cm Multicolored 40-pin Male to Female /Male to Male /Female to Female Breadboard Jumper Wires Ribbon Cables by Celelin</a>
 
-Leave about 4cm of cable after the fan, then carefully bared the wire ends (tucking back the yellow ground wire as that isn't required)). Snip one of the female breadboard cables with about 3cm of cable, bare the end, then use the heat shrink solder sleeve to join the two together. Do this for the red and black wire, then connect to your pi!
+Leave about 4cm of cable after the fan, then carefully bared the wire ends (tucking back the yellow ground wire as that isn't required)). Snip one of the female breadboard cables with about 3cm of cable, bare the end, then use the heat shrink solder sleeve to join the two together (I just used a tealight candle to melt it). Do this for the red and black wire, then connect to your pi!
 
