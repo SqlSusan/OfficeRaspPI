@@ -6,11 +6,11 @@ Anyway, here are all the components for a mountable zero client for Citrix (from
 Component | SKU | Cost
 --- | --- | ---
 <a href="https://thepihut.com/products/raspberry-pi-4-case-with-cooling-fan">Raspberry Pi 4 Case (With Cooling Fan) (v3.0)</a> | SKU: TPH-001-GRY | £10
-VESA Mounting plate for The Pi Hut Cases | SKU: TPH-055 | £2.50
-USB-C Cable with On/Off Switch | SKU: 102509 | £3
-Official UK Raspberry Pi 4 Power Supply (5.1V 3A) | SKU: SC0216 | £8
-Raspberry Pi 4 Model B | SKU: SC0195 | £74
-Official Raspberry Pi 4 MicroHDMI Cable (1M) | SKU: SC0270 | £10
+<a href="https://thepihut.com/products/vesa-mounting-plate-for-the-pi-hut-cases">VESA Mounting plate for The Pi Hut Cases1</a> | SKU: TPH-055 | £2.50
+<a href="https://thepihut.com/products/usb-c-cable-with-switch">USB-C Cable with On/Off Switch</a> | SKU: 102509 | £3
+<a href="https://thepihut.com/products/raspberry-pi-psu-uk">Official UK Raspberry Pi 4 Power Supply (5.1V 3A)</a> | SKU: SC0216 | £8
+<a href="https://thepihut.com/products/raspberry-pi-4-model-b">Raspberry Pi 4 Model B</a> | SKU: SC0195 | £74
+<a href="https://thepihut.com/products/micro-hdmi-to-standard-hdmi-a-cable">Official Raspberry Pi 4 MicroHDMI Cable (1M)</a> | SKU: SC0270 | £10
 
 I found the fan with the pi just slightly noisy, so opted to buy a non-pi branded fan (this needs some manual adjustments, I'd recommend not doing this):
 
