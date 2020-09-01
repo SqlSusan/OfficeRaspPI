@@ -34,6 +34,29 @@ sudo raspi-config
 ```
 Select Boot Options, Desktop/CLI, and select Desktop or Desktop Autologin.
 
+When loaded into the desktop UI, with some monitors you may notice a black border. To correct this, open pi config
+
+```bash
+sudo nano /boot/config.txt
+```
+
+Here you might need to experiment with what works best on your screens:
+```bash
+# uncomment this if your display has a black border of unused pixels visible
+# and your display can output without overscan
+disable_overscan=1
+```
+
+If this settings doesn't work, comment disable_overscan out again, then try adjusting these settings:
+```bash
+# uncomment the following to adjust overscan. Use positive numbers if console
+# goes off screen, and negative if there is too much border
+overscan_left=-50
+overscan_right=-50
+overscan_top=-50
+overscan_bottom=-50
+```
+
 Download the Citrix workspace client and install (this has receiver built in)
 https://www.citrix.com/en-gb/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
 ```bash
@@ -46,3 +69,5 @@ sudo cp /usr/share/ca-certificates/mozilla/Entrust_Root_Certication_Authority_-_
 ```
 
 Log into Citrix in Chromium, in settings at the top right, click "Change Citrix Receiver...". Click "Use Full Version".
+
+With some monitors
