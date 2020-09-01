@@ -5,7 +5,7 @@ Fearful of not having enough RAM, I opted for the 8GB model of the pi. As it tur
 Anyway, here are all the components for a mountable zero client for Citrix (from <a href>https://thepihut.com/</a>):
 Component | SKU | Cost
 --- | --- | ---
-Raspberry Pi 4 Case (With Cooling Fan) (v3.0) | SKU: TPH-001-GRY | £10
+<a href="https://thepihut.com/products/raspberry-pi-4-case-with-cooling-fan">Raspberry Pi 4 Case (With Cooling Fan) (v3.0)</a> | SKU: TPH-001-GRY | £10
 VESA Mounting plate for The Pi Hut Cases | SKU: TPH-055 | £2.50
 USB-C Cable with On/Off Switch | SKU: 102509 | £3
 Official UK Raspberry Pi 4 Power Supply (5.1V 3A) | SKU: SC0216 | £8
