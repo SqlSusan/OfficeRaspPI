@@ -70,3 +70,25 @@ sudo cp /usr/share/ca-certificates/mozilla/Entrust_Root_Certication_Authority_-_
 
 Log into Citrix in Chromium, in settings at the top right, click "Change Citrix Receiver...". Click "Use Full Version".
 
+
+## Optional - install bluetooth audio packages
+
+``` bash
+#!/bin/bash
+
+# Add some audio and Bluetooth packages
+apt-get install blueman pulseaudio pavucontrol pulseaudio-module-bluetooth
+echo
+echo
+read -p 'Say "ALEXA PAIR" and then press ENTER to continue'
+echo
+echo
+
+# Capture Mac Address of Alexa Speaker by grepping for the string "Echo" from the bluetoothctl scan:
+ALEXAMACADDRESS=$(sudo timeout 10s bluetoothctl scan on >> /home/pi/scan-output.txt | cat /home/pi/scan-output.txt | grep -m1 '.*Echo.*' | awk '{print $3}')
+
+bluetoothctl pair $ALEXAMACADDRESS
+bluetoothctl connect $ALEXAMACADDRESS
+bluetoothctl trust $ALEXAMACADDRESS
+```
+
