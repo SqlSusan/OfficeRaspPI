@@ -70,6 +70,13 @@ sudo cp /usr/share/ca-certificates/mozilla/Entrust_Root_Certication_Authority_-_
 
 Log into Citrix in Chromium, in settings at the top right, click "Change Citrix Receiver...". Click "Use Full Version".
 
+## Smoothing out YouTube
+
+There are a couple of methods to do this. The easiest is to install this extension in Chromium:
+
+[h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal/related?hl=en)
+
+
 
 ## Optional - install bluetooth audio packages
 
